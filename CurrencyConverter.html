@@ -1,0 +1,35 @@
+<html>
+    <head> Currency Converter
+        <link rel="stylesheet" href="button.css">
+        <title> Currency Converter 
+        </title>
+    </head>
+    <body>
+        <p><div class="center">
+            <ul></ul>
+            <label for="banii">Introdu suma<input type="number" id="introducere" value="1">Ce valuta detii</label>
+            <select id="banii">
+            <!--<option value="EUR">EUR</option>
+            <option value="RON">RON</option>
+            <option value="LIRA">GBP</option>
+            <option value="DOLAR">USD</option>
+            <option value="RUBLA">RUB</option>
+            <option value="YEN">JPY</option> --->
+        </select>
+        <label for="convertire">In ce vrei sa schimbi</label>
+        <select id="convertiree">
+        <!---<option value="EUR">EUR</option>
+        <option value="RON">RON</option>
+        <option value="LIRA">GBP</option>
+        <option value="DOLAR">USD</option>
+        <option value="RUBLA">RUB</option>
+        <option value="YEN">JPY</option> --->
+    </select>
+    </p></div>
+        <p id="Conversie"><div class="center">Conversia: </p></div>
+        <p><div class="center"><button type="submit" id="apasa" onclick="currency()">Adauga valute</button><p>
+            <p><button type="submit" id="apasa" onclick="convertiree()">convertire</button></p>
+        </div>
+    </body>
+    <script src="CurrencyConverter.js"></script>
+</html>

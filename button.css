@@ -1,0 +1,27 @@
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color:rgb(235, 235, 241);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#apasa{
+    background-color: brown;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+html{
+    background-image: url('istockphoto-1009327288-612x612.jpg')
+}
